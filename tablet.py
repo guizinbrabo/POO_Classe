@@ -8,6 +8,19 @@ class Eletronico():
         self.a_venda = a_venda
         self.nome_da_loja = nome_da_loja
 
+    def get_nome(self):
+        return self.nome
+    def get_marca(self):
+        return self.marca
+    def get_bateria(self):
+        return self.bateria
+    def get_processador(self):
+        return self.processador
+    def get_camera(self):
+        return self.camera
+    def get_nome_da_loja(self):
+        return self.nome_da_loja
+
     def status(self):
         print(f'nome do eletronico: {self.nome}')
         print(f'marca do eletronico: {self.marca}')
